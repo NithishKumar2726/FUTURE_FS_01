@@ -11,7 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"><!-- AOS CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -46,15 +49,21 @@
     </header>
     <!-- End header -->
 
-    <div id="lead">
+    <div id="lead" class="floating-background">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
+            <h1>Nikhil Akkenapally</h1>
+            <h2>Aspiring Web Developer & IT Student</h2>
             <a href="#" class="btn-rounded-white">Download Resume</a>
+            <div class="social-top">
+                <a href="https://github.com/Nikhil-313" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nikhil-akkenapally?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="mailto:akkenapallynikhil313@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            </div>
+
         </div>
         <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
+        <div id="lead-overlay" class="floating-background"></div>
 
         <div id="lead-down">
             <span>
@@ -65,7 +74,7 @@
     </div>
     <!-- End #lead -->
 
-    <div id="about">
+<div id="about" data-aos="fade-right" data-aos-duration="1000">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -73,207 +82,269 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
+                       I am currently pursuing a Bachelor's degree in Information Technology at CBIT, with a diploma background in Computer Science. I’m passionate about web development, data science, and exploring real-world applications of AI and machine learning. I have hands-on experience with HTML, CSS, JavaScript, Python, and tools like Git and VS Code. I'm actively building projects to strengthen my skills and recently joined the "Summer of AI" program to dive deeper into LLMs and emerging AI technologies. I'm always eager to learn and looking for opportunities to collaborate, grow, and contribute to meaningful tech solutions.
                 </div>
             </div>
         </div>
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
+<div id="experience" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+    <h2 class="heading">Experience</h2>
+    <div id="experience-timeline">
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+        <div data-date="June 2025 – Present">
+            <h3>Viswam – Summer of AI</h3>
+            <h4>AI Program Participant</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                Engaged in learning and applying concepts related to <strong>Large Language Models</strong>, prompt engineering, and autonomous agents. 
+                Collaborating with a community of AI learners to build real-world AI solutions.
             </p>
         </div>
-        <!-- End .education-block -->
 
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+        <div data-date="July 2025">
+            <h3>Microsoft AI Skills Challenge</h3>
+            <h4>Workshop Participant</h4>
+            <p>
+                Attended a hands-on student workshop on building AI-powered chatbots using <strong>Flask</strong> and <strong>OpenAI APIs</strong>. 
+                Implemented backend logic and integrated the chatbot with a simple UI.
+            </p>
         </div>
-        <!-- End .education-block -->
+
+        <div data-date="Sept 2024">
+            <h3>Smart India Hackathon (SIH)</h3>
+            <h4>Participant</h4>
+            <p>
+                Collaborated with a team to solve a real-world problem during the national-level SIH event. 
+                Developed a tech solution within strict deadlines while learning teamwork and rapid prototyping skills.
+            </p>
+        </div>
+
+        <div data-date="Jan 2024 – April 2024">
+            <h3>Diploma Final Year Project</h3>
+            <h4>Team Leader</h4>
+            <p>
+                Led a team of 9 in building a <strong>Credit Card Fraud Detection System</strong> using <strong>Random Forest</strong>. 
+                Handled task delegation, integration of <strong>Python, Machine Learning, and HTML</strong>, and ensured timely project delivery.
+            </p>
+        </div>
+
     </div>
+</div>
+<!-- End #experience -->
+
+    <!-- End #experience -->
+
+<div id="education" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+    <h2 class="heading">Education</h2>
+
+    <div class="education-block">
+        <h3>Chaitanya Bharathi Institute of Technology (CBIT), Hyderabad</h3>
+        <span class="education-date">2024 – Present</span>
+        <h4>B.Tech in Information Technology</h4>
+        <p>
+            Currently pursuing bachelor's degree focused on web development, data science, and core IT concepts.
+        </p>
+    </div>
+    <!-- End .education-block -->
+
+    <div class="education-block">
+        <h3>VMR Polytechnic, Hanamkonda</h3>
+        <span class="education-date">2021 – 2024</span>
+        <h4>Diploma in Computer Science and Engineering</h4>
+        <p>
+            Completed diploma with hands-on projects and foundational knowledge in programming and databases.
+        </p>
+    </div>
+    <!-- End .education-block -->
+
+    <div class="education-block">
+        <h3>ZPHS Pallagutta</h3>
+        <span class="education-date">2020 – 2021</span>
+        <h4>10th Standard (SSC)</h4>
+        <p>
+            Completed schooling with distinction; built strong foundation in mathematics and science.
+        </p>
+    </div>
+    <!-- End .education-block -->
+</div>
+<!-- End #education -->
+
     <!-- End #education -->
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
+<div id="projects" class="background-alt" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+    <h2 class="heading">Projects</h2>
+    <div class="container">
+        <div class="row">
+            <!-- Project 1: Portfolio Website -->
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
                 </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
+                <div class="project-info">
+                    <h3>Personal Portfolio Website</h3>
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        A responsive personal portfolio to showcase my education, skills, and projects. Built using HTML, CSS, and minimal JavaScript. Hosted and maintained on GitHub.
                     </p>
+                    <a href="#">View Project</a>
                 </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
+            </div>
+
+            <!-- Project 2: AI Chatbot -->
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
                 </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
+                <div class="project-info">
+                    <h3>AI Chatbot (Microsoft AI Workshop)</h3>
+                    <p>
+                        A basic chatbot application developed during a Microsoft AI Workshop. It uses Flask, OpenAI API, and integrates with a simple frontend to provide interactive responses.
+                    </p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 3: Accident Management System -->
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
+                </div>
+                <div class="project-info">
+                    <h3>Accident Management System</h3>
+                    <p>
+                        A data structures-based C++ project designed to manage accident cases using queues and linked lists. Focused on DSA logic and memory management.
+                    </p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 4: Credit Card Fraud Detection -->
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
+                </div>
+                <div class="project-info">
+                    <h3>Credit Card Fraud Detection</h3>
+                    <p>
+                        A machine learning-based system using the Random Forest algorithm to identify fraudulent credit card transactions. Developed as part of a team project using Python and HTML for UI.
+                    </p>
+                    <a href="#">View Project</a>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</div>
+<!-- End #projects -->
+
+
+<div id="skills" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+    <h2 class="heading">Skills</h2>
+
+    <h3>Technical Skills</h3>
+    <ul>
+        <!-- Programming Languages -->
+        <li>Python</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>C#</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+
+        <!-- Libraries & Frameworks -->
+        <li>Bootstrap</li>
+        <li>Flask</li>
+        <li>Scikit-learn</li>
+
+        <!-- Tools & Technologies -->
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+        <li>Google Colab</li>
+
+        <!-- Areas of Interest -->
+        <li>Machine Learning</li>
+        <li>Data Structures</li>
+        <li>Web Development</li>
+    </ul>
+
+    <h3>Soft Skills</h3>
+    <ul>
+        <li>Strong Communication</li>
+        <li>Team Leadership</li>
+        <li>Problem-Solving</li>
+        <li>Time Management</li>
+        <li>Adaptability</li>
+    </ul>
+</div>
+<!-- End #skills -->
+
+
+<div id="contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="floating-background">
+    <h2>Get in Touch</h2>
+    <div id="contact-form">
+        <form method="POST" action="https://formspree.io/email@email.com">
+            <input type="hidden" name="_subject" value="Contact request from personal website" />
+            
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 copyright">
+                <p>
+                    Copyright &copy; <span id="current-year"></span> Nikhil Akkenapally
+                </p>
+            </div>
+            <div class="col-sm-2 top">
+                <span id="to-top">
+                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div class="col-sm-5 social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Nikhil-313" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/nikhil-akkenapally?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:akkenapallynikhil313@gmail.com" target="_blank">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
 </body>
 
 </html>
