@@ -53,7 +53,7 @@
         <div id="lead-content">
             <h1>Nikhil Akkenapally</h1>
             <h2>Aspiring Web Developer & IT Student</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <a href="https://drive.google.com/file/d/1eh0eMTHy5pL3H_3j_31ZOJYtbZVE2-ve/view?usp=drivesdk" class="btn-rounded-white">Resume</a>
             <div class="social-top">
                 <a href="https://github.com/Nikhil-313" target="_blank"><i class="fa fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/nikhil-akkenapally?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -283,13 +283,10 @@
 <div id="contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="floating-background">
     <h2>Get in Touch</h2>
     <div id="contact-form">
-        <form method="POST" action="https://formspree.io/email@email.com">
-            <input type="hidden" name="_subject" value="Contact request from personal website" />
-            
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="_replyto" placeholder="Your Email" required>
+        <form id="contactForm">
+            <input type="text" name="user_name" placeholder="Your Name" required>
+            <input type="email" name="user_email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" required></textarea>
-            
             <button type="submit">Send</button>
         </form>
     </div>
@@ -343,6 +340,28 @@
 <script>
   AOS.init();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  // Initialize EmailJS with your Public Key
+  emailjs.init('zY6p9kMQ3HfgAiG6H');
+
+  // Handle form submission
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_ysrx27i', 'template_1e1044b', this)
+      .then(function() {
+        alert('Message sent successfully!');
+      }, function(error) {
+        alert('Failed to send message. Please try again.'); // keeps dialog box
+        console.error(error);
+      });
+
+    this.reset(); // Clear form fields
+  });
+</script>
+
 
 
 </body>
