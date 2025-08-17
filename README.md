@@ -18,8 +18,14 @@ https://nikhil-313.github.io/personal_portfolio/
 ---
 
 ## 📷 Screenshots
+<img width="1873" height="868" alt="image" src="https://github.com/user-attachments/assets/71c23c86-b22a-4692-9e27-cc0a4f475cf9" />
+<img width="1796" height="863" alt="image" src="https://github.com/user-attachments/assets/151ff839-3174-4a6b-8795-07b006650921" />
+<img width="1790" height="842" alt="image" src="https://github.com/user-attachments/assets/31de61e4-b144-4fe0-acfc-f8f4fb6122c4" />
 
-|
+
+
+
+
 
 ---
 
@@ -46,26 +52,18 @@ Google Fonts
 📫 Contact
 Feel free to reach out:
 
-GitHub: @Nikhil-313
+GitHub: github.com/Nikhil-313
 
-LinkedIn: Your LinkedIn
+LinkedIn: https://www.linkedin.com/in/nikhil-akkenapally?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
-Email: nikhil123@gmail.com
+Email: akkenapallynikhil313@gmail.com
 
 📄 License
 This project is licensed under the MIT License – feel free to use and customize it for your own portfolio!
 
 
----
 
-Let me know if you want to:
 
-- Add dark mode toggle
-- Add more screenshots
-- Include deployment instructions (for Netlify/Vercel)
-- Add badges (like GitHub stars, last update)
-
-Once done, save it as `README.md` and push it to your GitHub repository. ✅
 
 
 
