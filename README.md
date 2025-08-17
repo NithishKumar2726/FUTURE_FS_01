@@ -4,10 +4,7 @@ Welcome to my personal developer portfolio website!
 This portfolio showcases my skills, projects, and experience as a web developer and IT student.
 
 ## 🌐 Live Site
-
-
-
----
+https://nikhil-313.github.io/personal_portfolio/
 
 ## 📌 Features
 
@@ -69,5 +66,6 @@ Let me know if you want to:
 - Add badges (like GitHub stars, last update)
 
 Once done, save it as `README.md` and push it to your GitHub repository. ✅
+
 
 
