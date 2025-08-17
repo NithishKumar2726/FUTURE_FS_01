@@ -186,7 +186,7 @@
                     <p>
                         A responsive personal portfolio to showcase my education, skills, and projects. Built using HTML, CSS, and minimal JavaScript. Hosted and maintained on GitHub.
                     </p>
-                    <a href="https://github.com/Nikhil-313">View Project</a>
+                    <a href="https://github.com/Nikhil-313/personal_portfolio.git">View Project</a>
                 </div>
             </div>
 
@@ -200,35 +200,39 @@
                     <p>
                         A basic chatbot application developed during a Microsoft AI Workshop. It uses Flask, OpenAI API, and integrates with a simple frontend to provide interactive responses.
                     </p>
-                    <a href="https://github.com/Nikhil-313">View Project</a>
+                    <a href="https://github.com/Nikhil-313/ai-study-buddy-frontend.git">View Project</a>
                 </div>
             </div>
 
-            <!-- Project 3: Accident Management System -->
+            <!-- Project 3: Weather App -->
             <div class="project shadow-large">
                 <div class="project-image">
                     <img src="images/project.jpg" />
                 </div>
                 <div class="project-info">
-                    <h3>Accident Management System</h3>
+                    <h3>Weather App</h3>
                     <p>
-                        A data structures-based C++ project designed to manage accident cases using queues and linked lists. Focused on DSA logic and memory management.
+                        A Python-based weather application built with Tkinter and OpenWeatherMap API. 
+                        Features include real-time weather updates, custom UI styling, weather icons, 
+                        search history, and a Celsius/Fahrenheit toggle.
                     </p>
-                    <a href="https://github.com/Nikhil-313">View Project</a>
+                    <a href="https://github.com/Nikhil-313/weather_app.git">View Project</a>
                 </div>
             </div>
 
-            <!-- Project 4: Credit Card Fraud Detection -->
+            <!-- Project 4: House price prediction -->
             <div class="project shadow-large">
                 <div class="project-image">
                     <img src="images/project.jpg" />
                 </div>
                 <div class="project-info">
-                    <h3>Credit Card Fraud Detection</h3>
+                    <h3>House Price Prediction</h3>
                     <p>
-                        A machine learning-based system using the Random Forest algorithm to identify fraudulent credit card transactions. Developed as part of a team project using Python and HTML for UI.
+                        A machine learning project that predicts house prices based on various 
+                        features such as location, size, and amenities. Built using Python, 
+                        Scikit-learn, and Jupyter Notebook.
                     </p>
-                    <a href="https://github.com/Nikhil-313">View Project</a>
+                    <a href="https://github.com/Nikhil-313/DAV_Assignment.git">View Project</a>
                 </div>
             </div>
         </div>
@@ -283,12 +287,16 @@
 <div id="contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="floating-background">
     <h2>Get in Touch</h2>
     <div id="contact-form">
-        <form id="contactForm">
+        <form id="contactForm" action="https://formspree.io/f/xzzvqena" method="POST" >
             <input type="text" name="user_name" placeholder="Your Name" required>
             <input type="email" name="user_email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send</button>
         </form>
+        <p style="font-size: 1em; text-align: right; margin-top: 10px;">
+            <span style="color: black;">Powered by </span>
+            <a href="https://formspree.io" target="_blank" style="color: red; text-decoration: none;font-size: larger;">Formspree</a>
+        </p>
     </div>
 </div>
 
@@ -340,27 +348,8 @@
 <script>
   AOS.init();
 </script>
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
-  // Initialize EmailJS with your Public Key
-  emailjs.init('zY6p9kMQ3HfgAiG6H');
 
-  // Handle form submission
-  document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault();
 
-    emailjs.sendForm('service_ysrx27i', 'template_1e1044b', this)
-      .then(function() {
-        alert('Message sent successfully!');
-      }, function(error) {
-        alert('Failed to send message. Please try again.'); // keeps dialog box
-        console.error(error);
-      });
-
-    this.reset(); // Clear form fields
-  });
-</script>
 
 
 
