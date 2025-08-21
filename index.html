@@ -297,6 +297,7 @@
             <span style="color: black;">Powered by </span>
             <a href="https://formspree.io" target="_blank" style="color: red; text-decoration: none;font-size: larger;">Formspree</a>
         </p>
+        <p id="formStatus"></p>
     </div>
 </div>
 
@@ -348,6 +349,65 @@
 <script>
   AOS.init();
 </script>
+<script>
+function showPopup(message, color="black") {
+  let popup = document.getElementById("popup");
+  let msg = document.getElementById("popup-message");
+  msg.textContent = message;
+  msg.style.color = color;
+  popup.style.display = "flex";
+
+  // Auto-close after 3 seconds
+  setTimeout(() => {
+    popup.style.display = "none";
+  }, 5000);
+
+  // Close button
+  document.getElementById("popup-close").onclick = () => {
+    popup.style.display = "none";
+  };
+
+  // Close popup when clicking outside
+  popup.onclick = (e) => {
+    if (e.target === popup) popup.style.display = "none";
+  };
+}
+
+document.getElementById("contactForm").addEventListener("submit", async function(event) {
+  event.preventDefault();
+  let form = event.target;
+  let data = new FormData(form);
+
+  try {
+    let response = await fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      showPopup("✅ Message sent successfully!", "green");
+      form.reset();
+    } else {
+      showPopup("❌ Failed to send message. Please try again.", "red");
+    }
+  } catch (error) {
+    showPopup("⚠️ Something went wrong. Try later.", "red");
+  }
+});
+</script>
+
+
+<!-- Custom Popup -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span id="popup-close">&times;</span>
+    <p id="popup-message"></p>
+  </div>
+</div>
+
+
+
 
 
 
