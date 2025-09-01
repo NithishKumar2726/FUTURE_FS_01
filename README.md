@@ -4,7 +4,7 @@ Welcome to my personal developer portfolio website!
 This portfolio showcases my skills, projects, and experience as a web developer and IT student.
 
 ## 🌐 Live Site
-https://nikhil-313.github.io/personal_portfolio/
+https://nikhil-313.github.io/FUTURE_FS_01/
 
 ## 📌 Features
 
