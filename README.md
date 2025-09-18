@@ -4,7 +4,7 @@ Welcome to my personal developer portfolio website!
 This portfolio showcases my skills, projects, and experience as a web developer and IT student.
 
 ## 🌐 Live Site
-https://nikhil-313.github.io/FUTURE_FS_01/
+(https://github.com/NithishKumar2726/FUTURE_FS_01)
 
 ## 📌 Features
 
@@ -52,14 +52,14 @@ Google Fonts
 📫 Contact
 Feel free to reach out:
 
-GitHub: github.com/Nikhil-313
+GitHub: https://github.com/NithishKumar2726
+LinkedIn: https://www.linkedin.com/in/nithish-kumar-govindaram-59b111338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
-LinkedIn: https://www.linkedin.com/in/nikhil-akkenapally?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-
-Email: akkenapallynikhil313@gmail.com
+Email: mailto:govindaramnithishkumar@gmail.com
 
 📄 License
 This project is licensed under the MIT License – feel free to use and customize it for your own portfolio!
+
 
 
 
