@@ -1,4 +1,4 @@
-# 💼 Nikhil Akkenapally - Developer Portfolio
+# 💼 Govindaram Nithish  - Developer Portfolio
 
 Welcome to my personal developer portfolio website!  
 This portfolio showcases my skills, projects, and experience as a web developer and IT student.
@@ -59,6 +59,7 @@ Email: mailto:govindaramnithishkumar@gmail.com
 
 📄 License
 This project is licensed under the MIT License – feel free to use and customize it for your own portfolio!
+
 
 
 
